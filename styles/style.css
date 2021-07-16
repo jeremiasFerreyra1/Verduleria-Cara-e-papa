@@ -1,0 +1,295 @@
+@charset "UTF-8";
+.presentation {
+  background-color: brown;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentation .presentation__logo {
+  margin: 1%;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentation .presentation__nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.botoon {
+  margin: 3%;
+  text-decoration: none;
+}
+
+.html_frutas {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: transparent;
+}
+
+.html_index {
+  font-family: "Poppins", sans-serif;
+  background-color: azure;
+  margin: 0%;
+  background-image: url("imagenes/fondoindex.jpeg");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.carrousel_ {
+  margin: 3%;
+}
+
+.carrousel_ .carrousel {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.ubi {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ubi .ubi__ubicacion {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: auto;
+}
+
+.fatherUs {
+  margin: 3%;
+}
+
+.fatherUs .us {
+  color: red;
+}
+
+.aboutUs {
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.aboutUs .infoIndex {
+  margin: 3%;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.baby {
+  margin: 3%;
+}
+
+.baby .baby__niños {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.asd {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.asd .asd_botoon {
+  margin: 3%;
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .col-4 {
+  border-radius: 50px;
+  text-align: center;
+  border: 2px solid #000;
+  margin-bottom: 60px;
+}
+
+.container .fanta {
+  width: 300px;
+  height: 200px;
+}
+
+.container .font {
+  border-radius: 10px;
+  border: 5px solid cadetblue;
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+.container .font1 {
+  border-radius: 10px;
+  border: 5px solid cadetblue;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto_hs {
+  font-size: 30px;
+  text-align: center;
+  margin: 5%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.bebes {
+  width: 250px;
+  height: 200px;
+}
+
+.footer-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #000;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0%;
+}
+
+.footer-link .footer__p-link {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+.footer-link .footer__paddin {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1023px) {
+  .padreFrutas {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .padreVerduras {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .verdurasPadre {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .padreFrutas {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .padreVerduras {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body {
+    background-color: lightgrey;
+  }
+  .logo {
+    color: brown;
+    font-size: 20px;
+  }
+  .frutas {
+    padding-left: 5rem;
+    color: black;
+  }
+  .nav-links {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav-link {
+    color: cadetblue;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .imagen_1 {
+    width: 100%;
+  }
+  .verdurasPadre {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.formulario {
+  color: red;
+  letter-spacing: 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin: 2%;
+  text-align: center;
+}
+
+.formulario .formulario__nombre-link {
+  border: 2px solid #000;
+}
+
+.formulario .formulario__cta-select {
+  font-size: 25px;
+  border: 5px solid darkred;
+  background: -webkit-gradient(linear, right top, left top, from(pink), to(violet));
+  background: linear-gradient(to left, pink, violet);
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
