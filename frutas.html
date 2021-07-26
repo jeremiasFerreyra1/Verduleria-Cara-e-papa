@@ -29,26 +29,58 @@
     </p>
   </div>
     <header>
-      <nav class="presentation">
-               <h1 class="presentation__logo">Verdulería Cara e’ Papa</h1>
-               <ul class="nav justify-content-end">
-                 <li class="nav-item">
-                   <a class="presentation__nav-link active" aria-current="page" href="index.html">Inicio</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="presentation__nav-link" href="frutas.html">Frutas</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="presentation__nav-link" href="verduras.html">Verduras</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="presentation__nav-link" href="almacen.html" tabindex="-1" aria-disabled="true">Almacen/Bebidas</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="presentation__nav-link" href="contacto.html">Contacto</a>
-                 </li>
-               </ul>
-       </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark presentation">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Verdulería Cara e’ Papa</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link presentation__nav-link"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link presentation__nav-link" href="frutas.html"
+                  >Frutas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link presentation__nav-link" href="verduras.html"
+                  >Verduras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link presentation__nav-link"
+                  href="almacen.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Almacen/Bebidas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link presentation__nav-link" href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <div class="fatherUs">
@@ -61,86 +93,202 @@
     </div>
 
 
-
-
-
-
-     <div class="container">
-        <div class="row">
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/banana.jpg" alt="">
-            <p class="font">BANANA</p>
-            <p class="font1">$100KG</p>
+     <div class="container w-100">
+        <div class="row w-100">
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/mandarina.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  MANDARINA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $100KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/piña.jpg" alt="">
-            <p class="font">PIÑA</p>
-            <p class="font1">$230 C/U</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/manzana verde.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  MANZANA VERDE
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $160KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/cereza.jpg" alt="">
-            <P class="font">CEREZA</P>
-            <p class="font1">$720KG</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/manzana.jpg" class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  MANZANA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $140KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/Papaya.jpg" alt="">
-            <p class="font">PAPAYA</p>
-            <p class="font1">$130 C/U</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/naranja de jugo.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  NARANJA DE JUGO
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $70KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/coco.jpg" alt="">
-            <p class="font">COCO</p>
-            <p class="font1">$120 C/U</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/uvas.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  UVAS
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $360KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/uvas.jpg" alt="">
-            <p class="font">UVAS</p>
-            <p class="font1">$300KG</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/sandia.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  SANDIA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $30KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/manzana verde.jpg" alt="">
-            <P class="font">MANZANA VERDE</P>
-            <P class="font1">$180KG</P>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/piña.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  PIÑA ECUADOR
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $190 C/U
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/manzana.jpg" alt="">
-            <p class="font">MANZANA</p>
-            <p class="font1">$140KG</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/pera.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  PERA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $130KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/mandarina.jpg" alt="">
-            <p class="font">MANDARINA</p>
-            <p class="font1">$80KG</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/melon.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  MELON
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $100KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/naranja de jugo.jpg" alt="">
-            <p class="font">NARANJA DE JUGO</p>
-            <P class="font1">$70KG</P>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/banana.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  BANANA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $100KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/melon.jpg" alt="">
-            <p class="font">MELON</p>
-            <p class="font1">$180 C/U</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/coco.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  COCO
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $190 C/U
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/mango.jpeg" alt="">
-            <p class="font">MANGO</p>
-            <p class="font1">$120 C/U</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/cereza.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  CEREZA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $170KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/pomelo rosado.jpg" alt="">
-            <p class="font">POMELO ROSADO</p>
-            <P class="font1">$100KG</P>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/frambuesa.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  FRAMBUESA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $720KG
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/peras.jpg" alt="">
-            <p class="font">PERAS WILLIAM</p>
-            <p class="font1">$110KG</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/granada.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  GRANADA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $120 C/U
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-4 text-center">
-            <img class="fanta" src="imagenes/ciruela.jpg" alt="">
-            <p class="font">CIRUELA</p>
-            <p class="font1">$220KG</p>
+          <div class="col-4 my-3">
+            <div class="card tarjeta">
+              <img src="imagenes/frutilla.jpg"class="fanta card-img-top" alt="...">
+              <div class="card-body">
+                <p class="btn btn-outline-primary w-100">
+                  FRUTILLA
+                </p>
+                <p class="btn btn-outline-primary w-100">
+                  $720KG
+                </p>
+              </div>
+            </div>
           </div>
           
         </div>
@@ -148,14 +296,18 @@
 
     <br/>
         <footer class="footer-link">
-          <p class="footer__p-link">2021 © Todos los derechos reservados Verdulería Cara e’ Papa.</p>
-            <div>
-              <a href="https://www.instagram.com/verduleriacaraepapa/?hl=es-la">
-                <img src="imagenes/logo instaaa.jpg" alt="" class="footer__paddin">
-              </a>
-              <a href="https://web.whatsapp.com/">
+          <div class="container-fluid">
+            <div class="row">
+              <p class="col-10 footer__p-link">2021 © Todos los derechos reservados Verdulería Cara e’ Papa.</p>
+                <div class="col-2 estiloA">
+                  <a class="mx-2" href="https://www.instagram.com/verduleriacaraepapa/?hl=es-la">
+                    <img src="imagenes/logo instaaa.jpg" alt="" class="footer__paddin">
+                      </a>
+                  <a class="mx-2" href="https://web.whatsapp.com/">
                 <img src="imagenes/wsplogo.jpg" alt="" class="footer__paddin">
-              </a>
+                  </a>
+                </div>
+              </div>
             </div>
         </footer>
 </body>

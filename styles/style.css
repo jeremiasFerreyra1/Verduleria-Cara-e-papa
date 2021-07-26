@@ -26,7 +26,7 @@
 .presentation .presentation__nav-link {
   padding-left: 10px;
   padding-right: 10px;
-  color: white;
+  color: white !important;
   text-decoration: none;
   font-size: 25px;
 }
@@ -34,20 +34,6 @@
 .botoon {
   margin: 3%;
   text-decoration: none;
-}
-
-.html_frutas {
-  font-family: "Poppins", sans-serif;
-  margin: 0%;
-  padding: 0%;
-  background-color: transparent;
-}
-
-.html_index {
-  font-family: "Poppins", sans-serif;
-  background-color: azure;
-  margin: 0%;
-  background-image: url("imagenes/fondoindex.jpeg");
 }
 
 body {
@@ -136,16 +122,10 @@ body {
           justify-content: center;
 }
 
-.container .col-4 {
-  border-radius: 50px;
-  text-align: center;
-  border: 2px solid #000;
-  margin-bottom: 60px;
-}
-
 .container .fanta {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
 }
 
 .container .font {
@@ -178,16 +158,7 @@ body {
 }
 
 .footer-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   background-color: #000;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 0%;
 }
 
 .footer-link .footer__p-link {
@@ -197,99 +168,21 @@ body {
 }
 
 .footer-link .footer__paddin {
-  padding-left: 10px;
-  padding-right: 10px;
   width: 60px;
   height: 60px;
   border-radius: 50px;
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1023px) {
-  .padreFrutas {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .padreVerduras {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .verdurasPadre {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 700px) {
-  .padreFrutas {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .padreVerduras {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  body {
-    background-color: lightgrey;
-  }
-  .logo {
-    color: brown;
-    font-size: 20px;
-  }
-  .frutas {
-    padding-left: 5rem;
-    color: black;
-  }
-  .nav-links {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .nav-link {
-    color: cadetblue;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .imagen_1 {
-    width: 100%;
-  }
-  .verdurasPadre {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-.formulario {
-  color: red;
-  letter-spacing: 3px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 25px;
-  margin: 2%;
-  text-align: center;
-}
-
-.formulario .formulario__nombre-link {
-  border: 2px solid #000;
-}
-
-.formulario .formulario__cta-select {
-  font-size: 25px;
-  border: 5px solid darkred;
-  background: -webkit-gradient(linear, right top, left top, from(pink), to(violet));
-  background: linear-gradient(to left, pink, violet);
-  font-size: 16px;
-  width: 200px;
-  height: 50px;
+.footer-link .estiloA {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
 }
 /*# sourceMappingURL=style.css.map */
