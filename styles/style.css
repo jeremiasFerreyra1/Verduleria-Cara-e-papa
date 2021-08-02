@@ -159,6 +159,10 @@ body {
   height: 200px;
 }
 
+.inicioImg {
+  width: 70%;
+}
+
 .footer-link {
   background-color: #000;
 }
